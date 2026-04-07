@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bj1vn1ggtjukv"]
+
+[ext_resource type="Script" uid="uid://d1kgsqpjpf55d" path="res://hud.gd" id="1_37p78"]
+
+[node name="HUD" type="CanvasLayer" unique_id=2509957]
+script = ExtResource("1_37p78")
+
+[node name="ScoreText" type="Label" parent="." unique_id=251095104]
+offset_right = 40.0
+offset_bottom = 23.0
